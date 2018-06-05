@@ -7,14 +7,10 @@ export default class Game extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
-<<<<<<< HEAD
       board: [
         null, null, null,
         null, null, null,
         null, null, null],
-=======
-      board: [null, null, null, null, null, null, null, null, null],
->>>>>>> 0e46456bbd3c3c95b8ee6551db1315f53c5385df
       turn: 'X'
     };
 
